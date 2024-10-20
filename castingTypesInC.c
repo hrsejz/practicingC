@@ -6,7 +6,7 @@ int main() {
   targetInt = (int)sourceChar;
 
   char sourceChar2;
-  int targetInt2 = 65;
+  int targetInt2 = 66;
   sourceChar2 = (char)targetInt2;
 
   printf("%d\n", targetInt);
