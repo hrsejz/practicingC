@@ -1,4 +1,4 @@
-/* name.c */
+R* name.c */
 
 #include <stdio.h>
 

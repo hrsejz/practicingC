@@ -13,6 +13,14 @@ int main()
     {
         printf("You are overspeeding!\n");
     }
+    else if (speed > 80)
+    {
+        printf("You are driving fast!!\n");
+    }
+    else if (speed > 40)
+    {
+        printf("You are driving at normal speed\n");
+    }
     else
     {
         printf("Speed: OK\n");
