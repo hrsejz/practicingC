@@ -19,15 +19,13 @@ int main()
     while (1)
     {
         printf("Countdown: %d\n", number);
-        sleep(1);
-        number = number - 1;
+        sleep(0.5);
+        number -= 1; //number = number - 1
 
         if (number < 1)
-        {
             break;
-        }
     }
     printf("\nCountdown Over");
-    
+
     return 0;
 }
