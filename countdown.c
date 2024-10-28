@@ -20,7 +20,7 @@ int main()
     {
         printf("Countdown: %d\n", number);
         sleep(0.5);
-        number -= 1; //number = number - 1
+        number -= 1; //number = number - 1; OR number--;
 
         if (number < 1)
             break;

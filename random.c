@@ -26,7 +26,7 @@ int main()
     random = our_random_function(5);
     printf("%d\n", random);
 
-    random = our_random_function(10);
+    random = our_random_function(6);
     printf("%d\n", random);
 
     return 0;
